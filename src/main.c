@@ -1,6 +1,5 @@
-#include "stm32f10x_it.h"
-#include "defines.h"
 #include "main.h"
+#include "defines.h"
 #include "General.h"
 #include "LCD.h"
 #include "Bitmaps.h"
