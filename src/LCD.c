@@ -194,7 +194,7 @@ void LCD_DrawBMP(const uint8_t* bmp)
 	LCD_WR_CMD(33, 0);
 	LCD_WR_REG(34);
 	
-	while(n < 76800)
+	while(n < 153600)
 	{
 		temp = (uint16_t)(bmp[n] << 8) + bmp[n+1];		
 		LCD_WR_Data(temp);
